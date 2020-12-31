@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
 	<style>
 		body {
 			background-color: #2c3e50;
@@ -35,19 +36,23 @@
 	</style>
 </head>
 <body>
-	<div class="js-clock">
-		<h1>00:00</h1>
-	</div>
-	<form class="js-form form">
-		<input type="text" placeholder="what is your name?">
-	</form>
-	<h4 class="js-greetings greetings"></h4>
-	<form class="js-toDoForm">
-		<input type="text" placeholder="Write a to do">
-	</form>
-	<ul class="js-toDoList">
-	</ul>
-	<span class="js-weather"></span>
+	<section class="center">
+		<div class="js-clock clock">
+			<h1 class="clock__text">00:00</h1>
+		</div>
+		<div class="center">
+			<form class="js-form form">
+				<input type="text" placeholder="what is your name?" class="name__input">
+			</form>
+			<h4 class="js-greetings greetings name__text"></h4>
+		</div>
+		<form class="js-toDoForm">
+			<input type="text" placeholder="Write a to do">
+		</form>
+		<ul class="js-toDoList list">
+		</ul>
+	</section>
+	<span class="js-weather weather"></span>
 	<script src="clock.js"></script>
 	<script src="greeting.js"></script>
 	<script src="todo.js"></script>

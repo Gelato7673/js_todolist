@@ -1,0 +1,15 @@
+.list {
+  margin-bottom: 20px;
+}
+
+.list span {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.list button {
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
